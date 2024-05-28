@@ -91,7 +91,7 @@ sudo ./aws/install
 
 Once the Cluster is ready run the command to set context:
 ```
-aws eks update-kubeconfig --name EKS_CLUSTER_NAME --region us-west-2
+aws eks update-kubeconfig --name EKS_CLUSTER_NAME --region us-east-1
 ```
 
 To check the nodes in your cluster run
@@ -110,7 +110,7 @@ git clone https://github.com/N4si/K8s-voting-app.git
 ```
 kubectl create ns cloudchamp
 
-kubectl config set-context --current --namespace cloudchamp
+kubectl config set-context --current --namespace shivani
 ```
 
 **MONGO Database Setup**
